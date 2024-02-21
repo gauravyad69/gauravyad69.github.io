@@ -1,0 +1,126 @@
+body{
+    background-color: #181818;
+    color: white;
+    padding: 8%;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 4;
+}
+
+.header-container{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: x-large;
+    grid-row: 1;
+}
+
+.about-container{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    grid-row: 4;
+    text-align: start;
+}
+.skills-container{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: large;
+    grid-row: 2;
+    text-align: start;
+}
+.projects-container{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    grid-row: 3;
+    text-align: start;
+}
+
+.container-divider-text{
+    font-size: x-large;
+}
+.header-text{
+    font-size: x-large;
+}
+.skills-sec {
+    padding: 0%;
+    text-align: start;
+
+}
+
+.skills-para{
+    font-size: large;
+    font-weight: 400; 
+    margin-left: 20px; 
+}
+.skills-header{
+    font-size: large;
+    font-weight: 500;
+}
+.about-para{
+    width: 80%;
+    font-size: large;
+}
+
+.skills-holder{
+    margin-left: 20px;
+}
+
+@media only screen and (max-width: 360px) {
+    .header-container{
+        font-family: "Montserrat", sans-serif;
+        font-weight: 400;
+        font-size: large;
+        grid-row: 1;
+    }
+    
+    .about-container{
+        font-family: "Montserrat", sans-serif;
+        font-weight: 400;
+        grid-row: 4;
+        text-align: start;
+    }
+    .skills-container{
+        font-family: "Montserrat", sans-serif;
+        font-weight: 400;
+        font-size: medium;
+        grid-row: 2;
+        text-align: start;
+    }
+    .projects-container{
+        font-family: "Montserrat", sans-serif;
+        font-weight: 400;
+        grid-row: 3;
+        text-align: start;
+    }
+
+    .container-divider-text{
+        font-size: large;
+    }
+    .header-text{
+        font-size: large;
+    }
+    .skills-sec {
+        text-align: start;
+        padding: 0%;
+    }
+
+    .skills-para{
+        font-size: medium;
+        font-weight: 400; 
+        margin-left: 20px; 
+    }
+    .skills-holder{
+        margin-left: 10px;
+    }
+    .skills-header{
+        font-size: large;
+        font-weight: 500;
+    }
+    .about-para{
+        width: 80%;
+        font-size: large;
+    }
+    
+
+
+  }
+
