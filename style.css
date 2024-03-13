@@ -1,7 +1,6 @@
 body{
     background-color: #181818;
     color: white;
-    padding: 8%;
     width: 100%;
     display: grid;
     grid-template-rows: 4;
@@ -63,8 +62,20 @@ body{
 .skills-holder{
     margin-left: 20px;
 }
+.skills-progamminglanguage{
+    background-color: #3d3d3d;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+    
+}
+.skills-misc{
+    background-color: #3d3d3d;
+    border-radius: 10px;
+    padding: 10px;
+}
 
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 460px) {
     .header-container{
         font-family: "Montserrat", sans-serif;
         font-weight: 400;
@@ -106,7 +117,7 @@ body{
     .skills-para{
         font-size: medium;
         font-weight: 400; 
-        margin-left: 20px; 
+        
     }
     .skills-holder{
         margin-left: 10px;
@@ -116,11 +127,23 @@ body{
         font-weight: 500;
     }
     .about-para{
+        padding: 10px;
+        padding-left: 20px;
         width: 80%;
         font-size: large;
     }
-    
-
+    .skills-progamminglanguage{
+        background-color: #3d3d3d;
+        border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+        
+    }
+    .skills-misc{
+        background-color: #3d3d3d;
+        border-radius: 10px;
+        padding: 10px;
+    }
 
   }
 
